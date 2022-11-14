@@ -2,36 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d2b9fa5-a0fa-4a27-bb96-67918c0817e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-doclet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/array/order/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/array/order/SolutionBackLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/array/order/array-order.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/model/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/AdditionNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/MergerLInkNodes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/RemoveNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/ReverseLinkNodes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/util/NodeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/order/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/order/SolutionBackLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/order/array-order.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/model/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/operation/AdditionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/operation/MergerLInkNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/operation/RemoveNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/operation/ReverseLinkNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/util/NodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/merge/MergeTwoOrderArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/node/operation/SortLinkNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/poker/PokerOrder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../customer-spring/src/main/java/com/customer/spring/model/BeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/AdditionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/AdditionNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/OrderService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/UserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/customer/annotation/CustomerComponentScan.java" beforeDir="false" />
@@ -52,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -82,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/com/array/order" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdditionNode">
+  <component name="RunManager" selected="Application.PokerOrder">
     <configuration name="AdditionNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.node.operation.AdditionNode" />
       <module name="algorithem" />
@@ -96,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergerLInkNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.node.operation.MergerLInkNodes" />
+    <configuration name="CountTheNumberTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.count.CountTheNumberTimes" />
       <module name="algorithem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.node.operation.*" />
+          <option name="PATTERN" value="com.array.count.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokerOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.poker.PokerOrder" />
+      <module name="algorithem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,39 +127,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linked.reverse.Solutions" />
-      <module name="algorithem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linked.reverse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PokerOrder" />
+        <item itemvalue="Application.CountTheNumberTimes" />
         <item itemvalue="Application.AdditionNode" />
         <item itemvalue="Application.RemoveNode" />
         <item itemvalue="Application.ReverseLinkNodes" />
-        <item itemvalue="Application.MergerLInkNodes" />
-        <item itemvalue="Application.Solutions" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +161,8 @@
       <workItem from="1668005574692" duration="4523000" />
       <workItem from="1668078680097" duration="303000" />
       <workItem from="1668089651783" duration="14157000" />
-      <workItem from="1668318723876" duration="8073000" />
+      <workItem from="1668318723876" duration="14334000" />
+      <workItem from="1668436061740" duration="5757000" />
     </task>
     <servers />
   </component>
