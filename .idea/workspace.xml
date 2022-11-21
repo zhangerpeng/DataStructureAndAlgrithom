@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d2b9fa5-a0fa-4a27-bb96-67918c0817e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/array/merge/MergeTwoOrderArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/node/operation/SortLinkNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/poker/PokerOrder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../customer-spring/src/main/java/com/customer/spring/model/BeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/linked/reverse/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/AdditionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithem/com/node/operation/AdditionNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/OrderService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/UserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/customer/annotation/CustomerComponentScan.java" beforeDir="false" />
@@ -55,13 +49,17 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/array/order" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/array/order" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PokerOrder">
+  <component name="RunManager" selected="Application.VerifyIP">
     <configuration name="AdditionNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.node.operation.AdditionNode" />
       <module name="algorithem" />
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.node.operation.RemoveNode" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.shape.Solution" />
       <module name="algorithem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.node.operation.*" />
+          <option name="PATTERN" value="com.string.shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.node.operation.ReverseLinkNodes" />
+    <configuration name="VerifyIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.ip.VerifyIP" />
       <module name="algorithem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.node.operation.*" />
+          <option name="PATTERN" value="com.string.ip.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,24 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerifyIP" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.PokerOrder" />
         <item itemvalue="Application.CountTheNumberTimes" />
         <item itemvalue="Application.AdditionNode" />
-        <item itemvalue="Application.RemoveNode" />
-        <item itemvalue="Application.ReverseLinkNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,8 @@
       <workItem from="1668078680097" duration="303000" />
       <workItem from="1668089651783" duration="14157000" />
       <workItem from="1668318723876" duration="14334000" />
-      <workItem from="1668436061740" duration="5757000" />
+      <workItem from="1668436061740" duration="13244000" />
+      <workItem from="1668561594219" duration="13231000" />
     </task>
     <servers />
   </component>
@@ -238,6 +239,36 @@
           <url>file://$PROJECT_DIR$/src/com/node/operation/RemoveNode.java</url>
           <line>24</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
