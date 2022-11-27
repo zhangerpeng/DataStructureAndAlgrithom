@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d2b9fa5-a0fa-4a27-bb96-67918c0817e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/link/backwards/CountBackwards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/link/judgement/JudgeCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/link/merge/MergeTwoOrderLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/link/section/reverse/ReverseLinkSecttion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../customer-spring/src/main/java/com/customer/spring/model/BeanPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/string/ip/VerifyIP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithem/com/string/ip/VerifyIP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/link/model/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/link/model/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/OrderService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/UserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/customer/annotation/CustomerComponentScan.java" beforeDir="false" />
@@ -163,7 +167,7 @@
       <workItem from="1668089651783" duration="14157000" />
       <workItem from="1668318723876" duration="14334000" />
       <workItem from="1668436061740" duration="13244000" />
-      <workItem from="1668561594219" duration="34216000" />
+      <workItem from="1668561594219" duration="40305000" />
     </task>
     <servers />
   </component>
