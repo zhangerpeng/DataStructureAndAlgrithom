@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d2b9fa5-a0fa-4a27-bb96-67918c0817e3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../customer-spring/src/main/java/com/customer/spring/model/BeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithem/com/string/ip/VerifyIP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithem/com/string/ip/VerifyIP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/OrderService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/basic/service/UserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-basic/src/main/java/com/spring/customer/annotation/CustomerComponentScan.java" beforeDir="false" />
@@ -59,13 +59,13 @@
       <recent name="$PROJECT_DIR$/src/com/array/order" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VerifyIP">
-    <configuration name="AdditionNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.node.operation.AdditionNode" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jo.line.Main" />
       <module name="algorithem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.node.operation.*" />
+          <option name="PATTERN" value="com.jo.line.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTheNumberTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.count.CountTheNumberTimes" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jo.line.number.Main" />
       <module name="algorithem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.count.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.poker.PokerOrder" />
-      <module name="algorithem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.poker.*" />
+          <option name="PATTERN" value="com.jo.line.number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordsReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.reverse.WordsReverse" />
+      <module name="algorithem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.string.reverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WordsReverse" />
         <item itemvalue="Application.VerifyIP" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.PokerOrder" />
-        <item itemvalue="Application.CountTheNumberTimes" />
-        <item itemvalue="Application.AdditionNode" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <workItem from="1668089651783" duration="14157000" />
       <workItem from="1668318723876" duration="14334000" />
       <workItem from="1668436061740" duration="13244000" />
-      <workItem from="1668561594219" duration="13231000" />
+      <workItem from="1668561594219" duration="34216000" />
     </task>
     <servers />
   </component>
@@ -269,6 +269,54 @@
           <url>file://$PROJECT_DIR$/src/com/string/ip/VerifyIP.java</url>
           <line>77</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/reverse/WordsReverse.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/reverse/WordsReverse.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/reverse/WordsReverse.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/reverse/WordsReverse.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/reverse/WordsReverse.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/string/reverse/WordsReverse.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jo/line/number/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/jo/line/number/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/jo/line/number/Main.java</url>
+          <line>5</line>
+          <properties class="com.jo.line.number.Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
